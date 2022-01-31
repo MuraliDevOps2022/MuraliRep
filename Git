@@ -1,3 +1,50 @@
 Hi Hello
 Good morning
 How r u
+git init
+
+git config --global user.name "Murali"
+git config --global user.email "kandulamurali1992@gmail.com"
+
+git config --list
+
+touch file1
+ls
+git status
+git add file1
+git status
+git commit -m "Lable" file1
+git status
+git log
+git show cid
+cat > file1
+
+touch file1 file2 file3 file4
+ls 
+git status
+git add file1 file2 file3 file4
+    or
+git add *
+git add .
+git -A
+git status
+git commit -m "Lable msg"
+ 
+cat > file1
+...msg...
+ctrl+d
+
+or 
+open file in our laptop and modify the file
+
+git show cid(cid means commit ID)
+-----------------------------------------
+git reset head file1---staging to workspace
+git reset head file1 file2 file3
+
+git reset --soft cid
+
+git reset --mixed cid
+git reset --hard cid
+
+
